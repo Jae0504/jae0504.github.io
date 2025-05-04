@@ -12,19 +12,18 @@ title: Home
 />
 <!-- Your custom CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
-
-<header class="site-header">
-    <div class="header-container">
-      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
-      <nav class="site-nav">
-        <a href="{{ "/#about"        | relative_url }}">About</a>
-        <a href="{{ "/#publications" | relative_url }}">Publications</a>
-        <a href="{{ "/assets/resume/YourResume.pdf" | relative_url }}" target="_blank">Resume</a>
-      </nav>
-    </div>
-</header>
-
-<div class="profile-container">
+<body>
+    <header class="site-header">
+        <div class="header-container">
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <nav class="site-nav">
+            <a href="{{ "/#about"        | relative_url }}">About</a>
+            <a href="{{ "/#publications" | relative_url }}">Publications</a>
+            <a href="{{ "/assets/resume/YourResume.pdf" | relative_url }}" target="_blank">Resume</a>
+        </nav>
+        </div>
+    </header>
+    <div class="profile-container">
   <!-- LEFT COLUMN -->
   <div class="profile-sidebar">
     <img src="assets/img/profile_pic.jpg" alt="Jaeyoung Kang">
@@ -79,3 +78,4 @@ title: Home
   </div>
 </div>
 
+</body>
