@@ -13,8 +13,18 @@ title: Home
 <!-- Your custom CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
 
-<div class="profile-container">
+<header class="site-header">
+    <div class="header-container">
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <nav class="site-nav">
+        <a href="{{ "/#about"        | relative_url }}">About</a>
+        <a href="{{ "/#publications" | relative_url }}">Publications</a>
+        <a href="{{ "/assets/resume/YourResume.pdf" | relative_url }}" target="_blank">Resume</a>
+      </nav>
+    </div>
+</header>
 
+<div class="profile-container">
   <!-- LEFT COLUMN -->
   <div class="profile-sidebar">
     <img src="assets/img/profile_pic.jpg" alt="Jaeyoung Kang">
@@ -47,14 +57,16 @@ title: Home
         </li>
     </ul>
   </div>
-
   <!-- RIGHT COLUMN -->
   <div class="profile-main">
-    <h2>About</h2>
+    <section id="about">
+    <h1>About</h1>
     <p>Hi, I am <strong>Jaeyoung Kang</strong>, a 2nd-year Ph.D. candidate in Electrical & Computer Engineering at UIUC, and a member of the <a href="https://fast.ece.illinois.edu/">FAST Lab</a> led by Professor Nam Sung Kim.</p>
     <p>I am interested in accelerator systems and datacenters. I completed my undergraduate ECE degree at UIUC in December 2023 and joined graduate school in January 2024.</p>
+    </section>
     <hr class="divider"/>
-    <h2>Publications</h2>
+    <section id="publications">
+    <h1>Publications</h1>
     <ul class="pub-list">
         <li><a href="…">Paper Title One</a><br/>
             <small>J. Kang, et al., Conference 2024</small>
@@ -63,6 +75,7 @@ title: Home
             <small>J. Kang, et al., Journal 2023</small>
         </li>
     </ul>
+    </section>
   </div>
 </div>
 
