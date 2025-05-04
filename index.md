@@ -21,20 +21,30 @@ title: Home
     <h2>Jaeyoung Kang</h2>
     <p>Ph.D. Candidate & Research Assistant</p>
     <ul>
-      <li>📍 Champaign, IL, USA</li>
-      <li>🏫 ECE @ UIUC</li>
-      <li>✉️ <a href="mailto:jaeyoung@illinois.edu">Email</a></li>
-      <li>🔗 <a href="https://fast.ece.illinois.edu/">FAST Lab</a></li>
-      <li>
-        <a href="https://github.com/Jae0504" target="_blank">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/jaeyoung-kang-653aa8250/" target="_blank">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-      </li>
+        <li>
+            <span class="icon">📍</span>
+            <span class="label">Champaign, IL, USA</span>
+        </li>
+        <li>
+            <span class="icon">🏫</span>
+            <span class="label">ECE @ UIUC</span>
+        </li>
+        <li>
+            <span class="icon">✉️</span>
+            <span class="label"><a href="mailto:jaeyoung@illinois.edu">Email</a></span>
+        </li>
+        <li>
+            <span class="icon">🔗</span>
+            <span class="label"><a href="https://fast.ece.illinois.edu/">FAST Lab</a></span>
+        </li>
+        <li>
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span class="label"><a href="https://github.com/Jae0504" target="_blank">GitHub</a></span>
+        </li>
+        <li>
+            <span class="icon"><i class="fab fa-linkedin"></i></span>
+            <span class="label"><a href="https://www.linkedin.com/in/jaeyoung-kang-653aa8250/" target="_blank">LinkedIn</a></span>
+        </li>
     </ul>
   </div>
 
