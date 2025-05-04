@@ -11,8 +11,12 @@
     text-align: center;
   }
   .profile-sidebar img {
-    border-radius: 50%;
-    max-width: 100%;
+    width: 200px;           /* pick whatever diameter you like */
+    height: 200px;          /* same as width for a perfect circle */
+    border-radius: 50%;     /* makes it a circle */
+    object-fit: cover;      /* crops & scales the image to fill the box */
+    display: block;         /* remove any inline spacing quirks */
+    margin: 0 auto 1rem;    /* center it and give a little bottom gap */
   }
   .profile-sidebar h2 {
     margin: 0.5rem 0 0;
