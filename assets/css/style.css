@@ -1,0 +1,37 @@
+/* ===== overall container ===== */
+.profile-container {
+    display: flex;
+    max-width: 900px;
+    margin: 2rem auto;
+  }
+  /* ===== left column (sidebar) ===== */
+  .profile-sidebar {
+    width: 240px;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  .profile-sidebar img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  .profile-sidebar h2 {
+    margin: 0.5rem 0 0;
+  }
+  .profile-sidebar p {
+    color: #555;
+    margin: 0.2rem 0 1rem;
+  }
+  .profile-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+  .profile-sidebar li {
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
+  }
+  /* ===== right column (main bio) ===== */
+  .profile-main {
+    flex: 1;
+    line-height: 1.6;
+  }
