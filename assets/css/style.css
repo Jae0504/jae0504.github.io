@@ -1,40 +1,49 @@
-/* ===== overall container ===== */
 .profile-container {
     display: flex;
     max-width: 900px;
     margin: 2rem auto;
   }
-  /* ===== left column (sidebar) ===== */
+  
+  /* Sidebar */
   .profile-sidebar {
     width: 240px;
     padding-right: 1.5rem;
-    text-align: center;
+    text-align: left;          /* left-align everything */
   }
+  
   .profile-sidebar img {
-    width: 200px;           /* pick whatever diameter you like */
-    height: 200px;          /* same as width for a perfect circle */
-    border-radius: 50%;     /* makes it a circle */
-    object-fit: cover;      /* crops & scales the image to fill the box */
-    display: block;         /* remove any inline spacing quirks */
-    margin: 0 auto 1rem;    /* center it and give a little bottom gap */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
   }
-  .profile-sidebar h2 {
-    margin: 0.5rem 0 0;
-  }
-  .profile-sidebar p {
-    color: #555;
-    margin: 0.2rem 0 1rem;
-  }
+  
   .profile-sidebar ul {
     list-style: none;
     padding: 0;
     margin: 1rem 0 0;
   }
-  .profile-sidebar li {
+  
+  .profile-sidebar ul li {
     margin: 0.4rem 0;
     font-size: 0.9rem;
   }
-  /* ===== right column (main bio) ===== */
+  
+  .profile-sidebar ul li a {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;            /* keep your link color */
+    text-decoration: none;
+  }
+  
+  .profile-sidebar ul li a .fa {
+    margin-right: 0.4rem;
+    font-size: 1.2em;
+  }
+  
+  /* Main content */
   .profile-main {
     flex: 1;
     line-height: 1.6;
