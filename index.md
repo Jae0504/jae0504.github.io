@@ -12,13 +12,13 @@ title: Home
   referrerpolicy="no-referrer"
 />
 <!-- Your custom CSS -->
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 <div class="profile-container">
 
   <!-- LEFT COLUMN -->
   <div class="profile-sidebar">
-    <img src="/assets/img/profile_pic.jpg" alt="Jaeyoung Kang">
+    <img src="assets/img/profile_pic.jpg" alt="Jaeyoung Kang">
     <h2>Jaeyoung Kang</h2>
     <p>Ph.D. Candidate & Research Assistant</p>
     <ul>
