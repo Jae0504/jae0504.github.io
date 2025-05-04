@@ -8,7 +8,7 @@ title: Home
 <div class="profile-container">
   <!-- LEFT COLUMN -->
   <div class="profile-sidebar">
-    <img src="/assets/img/avatar.jpg" alt="Jaeyoung Kang">
+    <img src="assets/img/profile_pic.jpg" alt="Jaeyoung Kang">
     <h2>Jaeyoung Kang</h2>
     <p>Ph.D. Candidate & Research Assistant</p>
     <ul>
