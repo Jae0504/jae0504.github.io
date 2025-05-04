@@ -26,7 +26,10 @@
     margin: 1rem 0 0;
   }
   
+  /* make each li a two-column flex row */
   .profile-sidebar ul li {
+    display: flex;
+    align-items: center;   /* center icon + label on the same baseline */
     margin: 0.4rem 0;
     font-size: 0.9rem;
   }
@@ -42,6 +45,14 @@
     margin-right: 0.4rem;
     font-size: 1.2em;
   }
+
+  /* fix the width of every icon/emoji to the same value */
+.profile-sidebar ul li .icon {
+  flex-shrink: 0;
+  width: 1.2em;          /* tweak this until it feels right */
+  text-align: center;
+  margin-right: 0.4rem;
+}
   
   /* Main content */
   .profile-main {
