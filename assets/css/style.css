@@ -47,12 +47,19 @@
   }
 
   /* fix the width of every icon/emoji to the same value */
-.profile-sidebar ul li .icon {
-  flex-shrink: 0;
-  width: 1.2em;          /* tweak this until it feels right */
-  text-align: center;
-  margin-right: 0.4rem;
-}
+  .profile-sidebar ul li .icon {
+    flex-shrink: 0;
+    width: 1.2em;          /* tweak this until it feels right */
+    text-align: center;
+    margin-right: 0.4rem;
+  }
+  
+  hr.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;      /* space above & below */
+    width: 100%;         /* full width of container */
+  }
   
   /* Main content */
   .profile-main {

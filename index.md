@@ -53,6 +53,8 @@ title: Home
     <h2>About</h2>
     <p>Hi, I am <strong>Jaeyoung Kang</strong>, a 2nd-year Ph.D. candidate in Electrical & Computer Engineering at UIUC, and a member of the <a href="https://fast.ece.illinois.edu/">FAST Lab</a> led by Professor Nam Sung Kim.</p>
     <p>I am interested in accelerator systems and datacenters. I completed my undergraduate ECE degree at UIUC in December 2023 and joined graduate school in January 2024.</p>
+
+    <hr class="divider"/>
   </div>
 </div>
 
