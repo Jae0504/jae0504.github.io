@@ -1,31 +1,52 @@
-.site-header .site-title a {
-  font-size: 1.5rem;            /* tweak size */
-  font-family: 'Helvetica Neue', sans-serif;  /* your chosen font */
-  font-weight: 600;             /* or whatever weight you like */
-  color: #333;                  /* your chosen color */
-  text-decoration: none;
-}
-
-.header-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0.75rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.site-nav a {
-  margin-left: 1.5rem;
-  text-decoration: none;
-  font-weight: 500;
-  color: inherit;
-}
-.site-nav a:hover {
-  text-decoration: underline;
-}
-
-.profile-container {
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+   .masthead {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+  }
+  
+  .masthead__inner-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .masthead__menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .masthead__menu-item {
+    white-space: nowrap;
+    margin-right: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .masthead__menu-item--lg {
+    font-weight: 700;
+  }
+  
+  .hidden,
+  .hidden-links {
+    display: none;
+  }
+  
+  /* ==========================================================================
+     CONTENT BELOW
+     ========================================================================== */
+  
+  .profile-container {
     display: flex;
     max-width: 900px;
     margin: 2rem auto;
@@ -35,7 +56,7 @@
   .profile-sidebar {
     width: 240px;
     padding-right: 1.5rem;
-    text-align: left;          /* left-align everything */
+    text-align: left;
   }
   
   .profile-sidebar img {
@@ -53,43 +74,48 @@
     margin: 1rem 0 0;
   }
   
-  /* make each li a two-column flex row */
   .profile-sidebar ul li {
     display: flex;
-    align-items: center;   /* center icon + label on the same baseline */
+    align-items: center;
     margin: 0.4rem 0;
     font-size: 0.9rem;
   }
   
-  .profile-sidebar ul li a {
-    display: inline-flex;
-    align-items: center;
-    color: inherit;            /* keep your link color */
-    text-decoration: none;
-  }
-  
-  .profile-sidebar ul li a .fa {
-    margin-right: 0.4rem;
-    font-size: 1.2em;
-  }
-
-  /* fix the width of every icon/emoji to the same value */
-  .profile-sidebar ul li .icon {
-    flex-shrink: 0;
-    width: 1.2em;          /* tweak this until it feels right */
-    text-align: center;
+  .profile-sidebar ul li a,
+  .profile-sidebar ul li i {
     margin-right: 0.4rem;
   }
-
-  hr.divider {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 2rem 0;      /* space above & below */
-    width: 100%;         /* full width of container */
-  }
   
-  /* Main content */
   .profile-main {
     flex: 1;
     line-height: 1.6;
+  }
+  
+  hr.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  
+  .pub-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+  
+  .pub-list li {
+    margin: 1rem 0;
+  }
+  
+  .pub-list li a {
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pub-list li small {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
   }
