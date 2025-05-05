@@ -63,11 +63,13 @@
             <section id="publications">
             <h1>Publications</h1>
             <ul class="pub-list">
-                <li><a href="…">Paper Title One</a><br/>
-                    <small>J. Kang, et al., Conference 2024</small>
+                <li><a href="…">UPP: Universal predicate pushdown to smart storage</a><br/>
+                    <middle> Ipoom Jeong, Jinghan Huang, Chuxuan Hu, Dohyun Park, <strong>Jaeyoung Kang</strong>, Nam Sung Kim, Yongjoo Park</middle>
+                    <middle> <strong>ISCA 2025</strong> </middle>
                 </li>
-                <li><a href="…">Paper Title Two</a><br/>
-                    <small>J. Kang, et al., Journal 2023</small>
+                <li><a href="…">Intel® In-Memory Analytics Accelerator: performance characterization and guidelines.</a><br/>
+                    <middle> <strong>Jaeyoung Kang</strong>, Qirong Xia, Ipoom Jeong, Yongjoo Park, Nam Sung Kim</middle>
+                    <middle> <strong>ISPASS 2025</strong> </middle>
                 </li>
             </ul>
             </section>
