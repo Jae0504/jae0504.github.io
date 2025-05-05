@@ -27,7 +27,7 @@
         <nav class="site-nav">
         <a href="#about">About</a>
         <a href="#publications">Publications</a>
-        <a href="assets/resume/YourResume.pdf" target="_blank">Resume</a>
+        <a href="assets/img/Jaeyoung_Kang_Resume.pdf" target="_blank">Resume</a>
         </nav>
     </div>
     </header>
