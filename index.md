@@ -15,7 +15,7 @@
         <nav class="site-nav">
             <a href="{{ "/#about"        | relative_url }}">About</a>
             <a href="{{ "/#publications" | relative_url }}">Publications</a>
-            <a href="{{ "assets/resume/Jaeyoung_Kang_Resume.pdf" | relative_url }}" target="_blank">Resume</a>
+            <a href="{{ "assets/img/Jaeyoung_Kang_Resume.pdf" | relative_url }}" target="_blank">Resume</a>
         </nav>
         </div>
     </header>
