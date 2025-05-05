@@ -13,15 +13,11 @@
 <body>
     <header class="site-header">
         <div class="header-container">
-        <h1>
-            <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
-        </h1>
+        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
             <a href="{{ "/#about"        | relative_url }}">About</a>
             <a href="{{ "/#publications" | relative_url }}">Publications</a>
-            <a href="{{ "/assets/resume/YourResume.pdf" | relative_url }}"
-            target="_blank"
-            >Resume</a>
+            <a href="{{ "/assets/resume/YourResume.pdf" | relative_url }}" target="_blank">Resume</a>
         </nav>
         </div>
     </header>
