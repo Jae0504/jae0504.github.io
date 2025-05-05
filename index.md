@@ -11,7 +11,7 @@
 <body>
     <header class="site-header">
         <div class="header-container">
-        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <a href="{{ "/" | relative_url }}">{{ Jaeyoung Kang }}</a>
         <nav class="site-nav">
             <a href="{{ "/#about"        | relative_url }}">About</a>
             <a href="{{ "/#publications" | relative_url }}">Publications</a>
