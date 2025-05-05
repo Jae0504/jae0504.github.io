@@ -1,5 +1,9 @@
 .site-header .site-title a {
-  display: none;
+  font-size: 1.5rem;            /* tweak size */
+  font-family: 'Helvetica Neue', sans-serif;  /* your chosen font */
+  font-weight: 600;             /* or whatever weight you like */
+  color: #333;                  /* your chosen color */
+  text-decoration: none;
 }
 
 .header-container {
