@@ -76,12 +76,12 @@
             <h1>Publications</h1>
             <ul class="pub-list">
                 <li><a href="…">UPP: Universal predicate pushdown to smart storage</a><br/>
-                    <middle> Ipoom Jeong, Jinghan Huang, Chuxuan Hu, Dohyun Park, <strong>Jaeyoung Kang</strong>, Nam Sung Kim, Yongjoo Park</middle>
-                    <middle> <strong>ISCA 2025</strong> </middle>
+                    <p><middle> Ipoom Jeong, Jinghan Huang, Chuxuan Hu, Dohyun Park, <strong>Jaeyoung Kang</strong>, Nam Sung Kim, Yongjoo Park</middle></p>
+                    <p> <middle> <strong>ISCA 2025</strong> </middle> </p>
                 </li>
                 <li><a href="…">Intel® In-Memory Analytics Accelerator: performance characterization and guidelines.</a><br/>
-                    <middle> <strong>Jaeyoung Kang</strong>, Qirong Xia, Ipoom Jeong, Yongjoo Park, Nam Sung Kim</middle>
-                    <middle> <strong>ISPASS 2025</strong> </middle>
+                    <p> <middle> <strong>Jaeyoung Kang</strong>, Qirong Xia, Ipoom Jeong, Yongjoo Park, Nam Sung Kim</middle> </p>
+                    <p> <middle> <strong>ISPASS 2025</strong> </middle> </p>
                 </li>
             </ul>
             </section>
