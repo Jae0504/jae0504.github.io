@@ -9,6 +9,17 @@
     border-bottom: 1px solid #ddd;
     z-index: 1000;
   }
+
+  .masthead__title {
+    margin: 0;                     /* remove default h1 margin */
+    font-size: 1.5rem;             /* adjust size to taste */
+    font-weight: 700;              /* bold */
+  }
+  
+  .masthead__title a {
+    text-decoration: none;
+    color: inherit;                /* match your nav link color */
+  }
   
   .masthead__inner-wrap {
     max-width: 900px;
