@@ -1,10 +1,9 @@
-.site-header {
-  position: sticky;     /* or `fixed` if you prefer, but sticky is simpler */
-  top: 0;
-  width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  z-index: 1000;
+.site-header .site-title a {
+  font-size: 1.5rem;            /* tweak size */
+  font-family: 'Helvetica Neue', sans-serif;  /* your chosen font */
+  font-weight: 600;             /* or whatever weight you like */
+  color: #333;                  /* your chosen color */
+  text-decoration: none;
 }
 
 .header-container {

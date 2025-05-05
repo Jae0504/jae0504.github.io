@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <!-- <header class="site-header">
         <div class="header-container">
         <a href="{{ "/" | relative_url }}">{{ Jaeyoung Kang }}</a>
         <nav class="site-nav">
@@ -18,6 +18,18 @@
             <a href="{{ "assets/img/Jaeyoung_Kang_Resume.pdf" | relative_url }}" target="_blank">Resume</a>
         </nav>
         </div>
+    </header> -->
+    <header class="site-header">
+    <div class="header-container">
+        <h1 class="site-title">
+        <a href="#about">Jaeyoung Kang</a>
+        </h1>
+        <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="assets/resume/YourResume.pdf" target="_blank">Resume</a>
+        </nav>
+    </div>
     </header>
     <div class="profile-container">
         <!-- LEFT COLUMN -->
